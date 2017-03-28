@@ -23,12 +23,12 @@ Or install it yourself as:
 Using Beachball is even simpler than filling up your hard drive with useless crap and then complaining about your technical incompetence to a nerdy friend.
 
 ```
-spinner = Spinner.new(10)
-spinner.start
+beachball = Beachball.new(10)
+beachball.start
 
 # intensive things!
 
-spinner.stop
+beachball.stop
 ```
 
 ## Contributing
