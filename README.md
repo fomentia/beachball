@@ -1,8 +1,6 @@
 # Beachball
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/beachball`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Ever written a script and wanted a nice progress indicator, similar to the famous spinning beach ball of death? If so, you've come to the right place.
 
 ## Installation
 
@@ -22,20 +20,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Using Beachball is even simpler than filling up your hard drive with useless crap and then complaining about your technical incompetence to a nerdy friend.
 
-## Development
+```
+spinner = Spinner.new(10)
+spinner.start
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+# intensive things!
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+spinner.stop
+```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/beachball.
-
+Bug reports and pull requests are somewhat welcome on GitHub at https://github.com/fomentia/beachball.
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT). If you don't respect the license and cargo cult without giving me credit, I probably won't do anything even if I am aware of it (which is highly unlikely). I mean, it took me maybe 20 minutes to write, so stealing isn't that big of a deal. Still though, be nice and do the right thing. If you want to. I don't want to force my subjective opinions down anyone's throat, so if stealing is totally fine in your belief system, who am I to say no? Right? Tolerance for the win.
+
+Haha, just kidding. If you steal my code I will come and kill you.
 
